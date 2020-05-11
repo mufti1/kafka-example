@@ -14,6 +14,10 @@ git clone git@github.com:mufti1/kafka-example.git
 # or
 git clone https://github.com/mufti1/kafka-example.git
 
+# Add kafka to your hosts
+sudo nano /etc/hosts
+127.0.0.1 kafka
+
 cd kafka-example
 
 # running docker compose
